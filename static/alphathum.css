@@ -1,0 +1,117 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    position:relative;
+}
+
+.highlights {
+    padding: 0 !important;
+}
+
+.alphathum-cont {
+    min-width: 100vw !important;
+}
+
+
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: none;
+    }
+    
+}
+
+.alphathum-cont img {
+    position: relative !important;
+    right: 10px !important;
+    width: 100% !important;
+    min-height: 623px !important;
+    object-fit: fill !important;
+}
+
+.alphathum-cont-connectivity {
+    min-width: 100vw !important;
+}
+
+.alphathum-cont-connectivity img {
+    position: relative !important;
+    left: 0px !important;
+    width: 100% !important;
+    min-height: 600px !important;
+    object-fit: fill !important;
+}
+
+.connectivity li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 22px 0px;
+}
+
+.highlights li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 14px 0px;
+}
+
+.highlights-img {
+    position: relative !important;
+    top: 0 !important;
+}
+
+#cyberthum-mobile {
+    display: none;
+}
+
+.para {
+    font-size: 1.15rem !important;
+}
+
+.elementor-icon-list-items {
+    list-style: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    #cyberthum-mobile {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #cyberthum-desktop {
+        display: none;
+    }
+
+    #float-form {
+        position: relative !important;
+        top: 0px !important;
+    }
+
+    .alphathum-cont img {
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+    .alphathum-cont-connectivity img {
+        height: auto !important;
+        min-height: 0 !important;
+    }
+    #video-row{
+        flex-direction: column !important;
+    }
+    #video-row iframe{
+        height: 250px !important;
+    }
+    #gllry img{
+        height: 45vh !important;
+    }
+}
+
+
+/* @media screen and (min-width: 768px){
+    #about-alphathum{
+        height: 100vh;
+    }
+} */

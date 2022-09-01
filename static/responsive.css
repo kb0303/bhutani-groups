@@ -1,0 +1,300 @@
+@media screen and (max-width: 992px){
+    #float-form{
+        /* display: none; */
+        position: relative !important;
+        top: 10px !important;
+        left: 0px;
+        width: 100% !important;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    #carousel1 img{
+        width: 100% !important;
+    }
+    #carousel2 img{
+        width: 100% !important;
+    }
+    #carousel3 img{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cover{
+        width: 100% !important;
+        height: 207px !important;
+    }
+    .lead{
+        order: 1 !important;
+    }
+    .buttons{
+        order: 2 !important;
+    }
+    .banner-container{
+        position: relative !important;
+        top: 85px !important;
+    }
+    #nav-phone button{
+        padding: 5px 5px !important;
+        font-size: .8rem !important;
+    }
+    #nav-enquire{
+        font-size: .8rem !important;
+    }
+    .btn{
+        padding: 5px 3px !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        height: 50vh !important;
+    }
+    .carousel-indicators{
+        display: none !important;
+    }
+    .fixed-bottom a button{
+        display: flex;
+        padding: 7px 0px !important;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        font-size: .9rem !important;
+    }
+    #fixed-bottom{
+        display: flex !important;
+    }
+    .buttons{
+        margin-top: -10px !important;
+    }
+    .buttons button{
+        margin-top: 10px !important;
+    }
+    #jpg{
+        display: none !important;
+    }
+    #jpg2{
+        display: none !important;
+    }
+    #jpg3{
+        display: none !important;
+    }
+    .mobile-jpg{
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #carousel1::before{
+        content: "" !important;
+        z-index: 1 !important;
+        background: url(img/alpha-21.30.webp) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+    #carousel2::before{
+        content: "" !important;
+        z-index: 1 !important;
+        background: url(img/2-responsive.webp) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+    #carousel3::before{
+        content: "" !important;
+        z-index: 1 !important;
+        background: url(img/city-mobile-banner-landing-page.webp) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+
+    .carousel-item{
+        height: 500px !important;
+        width: 100vw !important;
+    }
+    #carousel1 img{
+        display: none !important;
+    }
+    #carousel2 img{
+        display: none !important;
+    }
+    #carousel3 img{
+        display: none !important;
+    }
+    #float-form{
+        position: relative !important;
+        top: -10px !important;
+    }
+
+    #about{
+        padding: 2rem 2rem 2rem 1rem !important;
+    }
+    #about p{
+        font-size: 14.5px !important;
+    }
+    #about h2{
+        font-size: 21px !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    #float-form{
+        position: relative !important;
+        top: -80px !important;
+    }
+    #carouselExampleSlidesOnly {
+        position: relative !important;
+        top: -50px !important;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 455px){
+    #float-form{
+        top: -73px !important;
+    }
+    #carouselExampleSlidesOnly {
+        position: relative !important;
+        top: -12px !important;
+    }
+}
+@media screen and (max-width: 400px){
+    #float-form{
+        top: -108px !important;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 600px){
+    #carousel1::before{
+        content: "" !important;
+        z-index: 1 !important;
+        background: url(img/1-responsive.jpg) !important;
+        background-repeat: no-repeat !important;
+        /* background-size: 95vh !important; */
+        background-size: cover !important;
+        /* background-position: center !important; */
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+    .carousel-item{
+        height: 500px !important;
+        width: 100vw !important;
+    }
+    #carousel1 img{
+        display: none !important;
+    }
+
+    #carousel2::before{
+        content: "" !important;
+        z-index: 1 !important;
+        background: url(img/2-responsive.jpeg) !important;
+        background-repeat: no-repeat !important;
+        /* background-size: 95vh !important; */
+        background-size: cover !important;
+        /* background-position: center !important; */
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+    #carousel2 img{
+        display: none !important;
+    }
+    #carousel3::before{
+        content: "" !important;
+        z-index: 1 !important;
+        background: url(img/2-responsive.jpeg) !important;
+        background-repeat: no-repeat !important;
+        /* background-size: 95vh !important; */
+        background-size: cover !important;
+        /* background-position: center !important; */
+        width: 100% !important;
+        height: 100% !important;
+        position: absolute !important;
+        top: 0px !important;
+    }
+    #carousel3 img{
+        display: none !important;
+    }
+    #float-form{
+        position: relative !important;
+        top: 10px !important;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #navbarSupportedContent li{
+        padding: 0px 5px;
+    }
+    #navbarSupportedContent li a{
+        color: black;
+    }
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+    #navbarSupportedContent ul{
+        justify-content: center;
+        width: 100%;
+    }
+    #navbarSupportedContent li{
+        padding: 0px 5px;
+    }
+    #navbarSupportedContent li a{
+        color: black;
+        font-size: .8rem !important;
+    }
+    #nav-enquire{
+        font-size: .8rem;
+        width: 16%;
+    }
+    #nav-phone{
+        margin-right: 50px;
+    }
+    #nav-phone button{
+        font-size: .8rem !important;
+        width: 150% !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    #navbarSupportedContent li a{
+        color: black;
+        font-size: .8rem !important;
+    }
+    .navbar{
+        padding: 0px 0px 20px 0px !important;
+    }
+    #nav-enquire{
+        margin-left: 10px !important;
+    }
+
+    #row1{
+        flex-direction: column;
+    }
+    #row2{
+        flex-direction: column;
+        
+    }
+    #comments{
+        width: 100% !important;
+        margin-left: 0rem !important;
+    }
+    #lastForm{
+        height: auto !important;
+    }
+
+    #submit {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}

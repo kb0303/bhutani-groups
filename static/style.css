@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100% !important;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.modal-header {
+    background-color: #a71e22;
+}
+
+.modal-header img {
+    filter: invert(1);
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 0px 0px !important;
+    box-shadow: 0px 1px 8px 0px black;
+}
+
+
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.banner-form:focus {
+    outline: none;
+    color: white;
+    background-color: #a71e22;
+}
+
+.banner-form input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #a71e22;
+    outline: none;
+}
+
+.banner-form input:focus {
+    color: white;
+    background-color: #a71e22;
+    outline: none !important;
+}
+
+.banner-form input:active {
+    outline: none !important;
+    border: none !important;
+}
+
+.card-body ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.card-body li {
+    list-style: none;
+}
+
+#jpg {
+    display: block;
+}
+
+#jpg2 {
+    display: block;
+}
+
+#jpg3 {
+    display: block;
+}
+
+.mobile-jpg {
+    display: none;
+}
+
+#carouselExampleSlidesOnly {
+    position: relative;
+    top: 68px;
+}
+
+#float-form {
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 0px #000;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating>.form-select {
+    height: calc(2.5rem + 2px) !important;
+}
+
+
+.card {
+    height: 460px !important;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 20%);
+}
+
+.card a {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.card h2 {
+    position: absolute;
+    top: 155px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background: #251515ad;
+    font-size: 16px;
+    padding: 5px 2px;
+}
+
+.card h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 2px;
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+#name {
+    grid-area: name;
+}
+
+#email {
+    grid-area: email;
+}
+
+#phone {
+    grid-area: phone;
+}
+
+#comments {
+    grid-area: comments;
+    width: 60vw;
+}
+
+#submit {
+    grid-area: button;
+    margin-top: 22px !important;
+    height: 42px !important;
+}
+
+#lastForm {
+    background-color: #3a3b36;
+    width: 100vw !important;
+    max-width: 98.9vw;
+}
+
+
+
+.blink2 {
+    animation: blinker 1.8s linear infinite !important;
+}
+
+
+
+#containr {
+    position: relative;
+    width: 80%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    filter: blur(3px);
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+#Text{
+    background-color: #283c82;
+}
+.container:hover .image {
+    opacity: 0.5;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+#gllry img{
+    width: fit-content !important;
+}
